@@ -1,0 +1,468 @@
+body{
+    width: 100%;
+    background-color: whitesmoke;
+}
+nav{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.navlogo{
+    width: 10%;
+    height: 50px;
+    float: left;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.navlink{
+    width: 70%;
+    position: absolute;
+    left: 220px;
+}
+.navlink ul{
+    float: right;
+    list-style: none;
+}
+.navlink ul li {
+    float: right;
+    padding: 0px 45px;
+}
+.navlink ul li a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid purple;
+    float: right;
+    /* transition: 3s; */
+}
+
+.btn:hover{
+width: 80px;
+height: 40px;
+background-color: purple;
+position: relative;
+}
+
+.home::before{
+    content: '';
+    width: 20px;
+    background-color: purple;    
+    height: 3px;
+    position: absolute;
+    bottom: 13px;
+
+}
+
+.pic{
+    width: 356px;
+    height: 430px;
+    position: absolute;
+    right: 40px;
+    top: 159px;
+}
+.pic_{
+    width: 100%;
+    height: 100%;
+}
+
+
+.txt1{
+    margin-top: 140px;
+    margin-left: 45px;
+}
+
+.txt_1{
+    font-size: 60px;
+}
+
+.colored{
+    color: rgb(76, 127, 202);
+}
+
+.txt2{
+    margin-left: 50px;
+    margin-top: -40px;
+    font-weight: 100;
+}
+
+.btn2{
+    width: 100px;
+    height: 50px;
+}
+
+.btn_2{
+    background-color: rgb(76, 127, 202);
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.center_txt{
+    font-size: 20px;
+    position: absolute;
+    top: 753px;
+    left: 46%;
+}
+
+.center_txt1{
+    font-size: 15px;
+    position: absolute;
+    top: 811px;
+    left: 29%;
+}
+
+.inside_center_txt1{
+    position: absolute;
+    top: 38px;
+    left: 29%;
+}
+
+.cards{
+    width: 100%;
+    /* margin-left: 110px; */
+    position: absolute;
+    top: 1000;
+    /* padding-right: 20px; */
+}
+
+.card1{
+    margin: 0% 5% 0% 15%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+}
+.card1_{
+    margin: 20px;
+}
+.card1_pic{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(95, 28, 219);
+    border-radius: 50px;
+}
+.card1_title p{
+    font-size: 18px;
+}
+.card1_btn p{
+color: rgb(76, 127, 202);
+}
+.card2{
+    margin: 0% 5% 0% 0%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+}
+.card2_{
+    margin: 20px;
+}
+.card2_pic{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(241, 34, 34);
+    border-radius: 50px;
+}
+.card2_title p{
+    font-size: 18px;
+}
+.card2_btn p{
+color: rgb(76, 127, 202);
+}
+.card3{
+    margin: 0% 5% 0% 0%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+}
+.card3_{
+    margin: 20px;
+}
+.card3_pic{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(19, 145, 52);
+    border-radius: 50px;
+}
+.card3_title p{
+    font-size: 18px;
+}
+.card3_btn p{
+color: rgb(76, 127, 202);
+}
+.card4{
+    margin: 5% 5% 0% 28%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+}
+.card4_{
+    margin: 20px;
+}
+.card4_pic{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(76, 127, 202);
+    border-radius: 50px;
+}
+.card4_title p{
+    font-size: 18px;
+}
+.card4_btn p{
+color: rgb(76, 127, 202);
+}
+.card5{
+    margin: 5% 5% 0% 0%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+}
+.card5_{
+    margin: 20px;
+}
+.card5_pic{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(227, 124, 28);
+    border-radius: 50px;
+}
+.card5_title p{
+    font-size: 18px;
+}
+.card5_btn p{
+color: rgb(76, 127, 202);
+}
+
+.center2_txt{
+    font-size: 20px;
+    position: absolute;
+    top: 1800px;
+    left: 46%;
+}
+
+.center2_txt1{
+    font-size: 15px;
+    position: absolute;
+    top: 1862px;
+    left: 26%;
+}
+
+.inside_center2_txt1{
+    position: absolute;
+    top: 38px;
+    left: 15%;
+}
+
+.cards2{
+    width: 100%;
+    position: absolute;
+    top: 2030;
+}
+._card1{
+    float: left;
+    width: 17%;
+    margin-left: 15%;
+    background-color: white;
+    padding-bottom: 6px;
+}
+
+._card1-img{
+    width: 100%;
+
+
+}
+._card1-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+._card1-text{
+    font-size: 10px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+._card1-text2{
+    padding-left: 24px;
+}
+._card2{
+    float: left;
+    width: 17%;
+    margin-left: 7%;
+    background-color: white;
+    padding-bottom: 6px;
+}
+
+._card2-img{
+    width: 100%;
+
+
+}
+._card2-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+._card2-text{
+    font-size: 10px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+._card2-text2{
+    padding-left: 24px;
+}
+._card3{
+    float: left;
+    width: 17%;
+    margin-left: 7%;
+    background-color: white;
+    padding-bottom: 6px;
+}
+
+._card3-img{
+    width: 100%;
+
+
+}
+._card3-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+._card3-text{
+    font-size: 10px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+._card3-text2{
+    padding-left: 24px;
+}
+
+.btn3{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 2433px;
+    left: 45%;
+}
+
+.btn_3{
+    background-color: rgb(76, 127, 202);
+    color: white;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 50px;
+    margin-top: 25px; */
+    border-radius: 10px;
+}
+.center3_txt{
+    font-size: 20px;
+    position: absolute;
+    top: 2620px;
+    left: 43%;
+}
+
+.center3_txt1{
+    font-size: 15px;
+    position: absolute;
+    top: 2681px;
+    left: 27%;
+}
+
+.inside_center3_txt1{
+    position: absolute;
+    top: 38px;
+    left: 18%;
+}
+.last{
+    left: 22%;
+    position: absolute;
+    top: 3000;
+}
+
+.last_txt{
+    font-size: 25px;
+    font-weight: 300;
+    float: left;
+}
+
+.last_btn{
+    width: 100px;
+    height: 41px;
+    float: right;
+    margin-left: 404px;
+    margin-top: 17px;
+}
+
+.last_btn_{
+    background-color: rgb(76, 127, 202);
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.footer{
+    position: absolute;
+    top: 3110px;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(76, 127, 202);
+}
+.first{
+    float: left;
+    width: 25%;
+    margin-left: 20%;
+    margin-right: 50px;
+}
+.footer_img{
+    margin-top: 40px;
+}
+.footer_txt11{
+    color: white;
+}
+.footer_txt12{
+    margin-top: 60px;
+    color: white;
+}
+.second{
+    float: left;
+    width: 10%;
+    margin-right: 50px;
+}
+.footer_ul1{
+    margin-top: 40px;
+    list-style: none;
+}
+.footer_ul1 li{
+    color: white;
+    padding-bottom: 23px;
+}
+.third{
+    float: left;
+    width: 11%;
+}
+.footer_ul2{
+    margin-top: 40px;
+    list-style: none;
+}
+.footer_ul2 li{
+    color: white;
+    padding-bottom: 23px;
+}
